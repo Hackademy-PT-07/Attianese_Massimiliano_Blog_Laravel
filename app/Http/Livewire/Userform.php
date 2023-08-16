@@ -74,15 +74,11 @@ class Userform extends Component
         return view('livewire.userform');
     }
 
-    /*public function resetForm() {
+    public function resetForm() {
 
-        $this->name = "";
+        $this->mount();
 
-        $this->email = "";
-
-        $this->password = "";
-
-    }*/
+    }
 
     public function mount() {
 

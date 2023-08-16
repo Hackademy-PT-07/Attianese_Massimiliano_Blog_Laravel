@@ -10,7 +10,7 @@
                 <div class="col-12 col-md-6">
                     @if($user->id)
                     <div class="text-end">
-                        <button class="btn btn-sm btn-primary" wire:click="mount">Pulisci</button>
+                        <button class="btn btn-sm btn-primary" wire:click="resetForm">Pulisci</button>
                     </div>
                     @endif
 
